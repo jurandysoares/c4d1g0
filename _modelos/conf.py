@@ -1,8 +1,4 @@
 # -*- coding: utf-8 -*-
-#
-# Documentação com Esfinge documentation build configuration file, created by
-# sphinx-quickstart on Thu Aug 28 08:33:56 2014.
-#
 
 import sys
 import os
