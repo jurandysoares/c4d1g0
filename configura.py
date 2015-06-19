@@ -6,18 +6,18 @@ from string import printable, Template
 
 # Solicitação de dados dos usuários
 print('''
-Quatro (4) dados são necessários para configurar seu caderno digital:
+Quatro (4) dados sao necessarios para configurar seu caderno digital:
 
  * Autor (seu nome)
- * E-mail (seu endereço de e-mail)
- * Projeto (título do projeto)
- * Versão (versão do projeto)
+ * E-mail (seu endereco de e-mail)
+ * Projeto (titulo do projeto)
+ * Versao (versao do projeto)
 ''')
 
 autor = input('Qual seu nome completo?\n')
-email = input('Qual seu endereço de e-mail?\n')
-projeto = input('Qual o título de seu projeto?\n')
-versao = input('Qual a versão de seu projeto?\n')
+email = input('Qual seu endereco de e-mail?\n')
+projeto = input('Qual o titulo de seu projeto?\n')
+versao = input('Qual a versao de seu projeto?\n')
 
 ano = date.today().year
 editor = autor
@@ -62,7 +62,7 @@ conf_index.write(tmpl_index.substitute(**contexto))
 conf_index.close()
 
 
-# Variáveis extraídas do arquivo de configuração de modelo
+# Variaveis extraidas do arquivo de configuracao de modelo
 # Comando executado a partir do *vim*:
 #   egrep -o '\{[a-z]+\}' fonte/conf.py | sort -u
 #
